@@ -3,7 +3,7 @@
 Plugin Name: WP All Import - WooCommerce Add-On
 Plugin URI: http://www.wpallimport.com/
 Description: An extremely easy, drag & drop importer to import WooCommerce simple products. A paid upgrade is available for premium support and support for Variable, Grouped, and External/Affiliate products
-Version: 1.2.5
+Version: 1.2.6
 Author: Soflyy
 */
 /**
@@ -24,7 +24,7 @@ define('PMWI_ROOT_URL', rtrim(plugin_dir_url(__FILE__), '/'));
  */
 define('PMWI_PREFIX', 'pmwi_');
 
-define('PMWI_FREE_VERSION', '1.2.5');
+define('PMWI_FREE_VERSION', '1.2.6');
 
 define('PMWI_EDITION', 'free');
 
@@ -211,9 +211,29 @@ final class PMWI_Plugin {
 
 		// register admin page pre-dispatcher
 		add_action('admin_init', array($this, '__adminInit'));		
-
+		add_action('init', array($this, 'init'));
 
 	}
+
+	public function init()
+	{
+		$this->load_plugin_textdomain();
+	}
+
+	/**
+	 * Load Localisation files.
+	 *
+	 * Note: the first-loaded translation file overrides any following ones if the same translation is present
+	 *
+	 * @access public
+	 * @return void
+	 */
+	public function load_plugin_textdomain() {
+		
+		$locale = apply_filters( 'plugin_locale', get_locale(), 'wpai_woocommerce_addon_plugin' );							
+		
+		load_plugin_textdomain( 'wpai_woocommerce_addon_plugin', false, dirname( plugin_basename( __FILE__ ) ) . "/i18n/languages" );
+	}	
 
 	/**
 	 * pre-dispatching logic for admin page controllers
@@ -406,7 +426,7 @@ final class PMWI_Plugin {
 	{
 		if ( $file == plugin_basename( __FILE__ ) ) {
 			$row_meta = array(
-				'pro'    => '<a href="http://www.wpallimport.com/woocommerce-product-import/" target="_blank" title="' . esc_attr( __( 'WP All Import - WooCommerce Add-On Pro Version', 'pmxi_plugin' ) ) . '">' . __( 'Pro Version', 'pmxi_plugin' ) . '</a>',				
+				'pro'    => '<a href="http://www.wpallimport.com/woocommerce-product-import/" target="_blank" title="' . esc_attr( __( 'WP All Import - WooCommerce Add-On Pro Version', 'wpai_woocommerce_addon_plugin' ) ) . '">' . __( 'Pro Version', 'wpai_woocommerce_addon_plugin' ) . '</a>',				
 			);
 
 			return array_merge( $links, $row_meta );
@@ -573,7 +593,7 @@ final class PMWI_Plugin {
 			'single_product_variation_description' => '',
 			'variable_description' => '',
 			'variable_description_use_parent' => 0,
-				
+
 			'first_is_parent' => 'yes',
 			'single_product_whosale_price' => '',
 			'variable_whosale_price' => '',
@@ -610,7 +630,7 @@ final class PMWI_Plugin {
 			'put_variation_image_to_gallery' => 0,
 			'single_variation_stock_status' => ''
 		);
-	}	
+	}
 }
 
 PMWI_Plugin::getInstance();	

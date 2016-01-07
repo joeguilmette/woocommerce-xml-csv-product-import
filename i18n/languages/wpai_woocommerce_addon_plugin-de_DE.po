@@ -1,0 +1,1418 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP All Import - WooCommerce Add-On Pro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Sun Nov 08 2015 17:17:28 GMT+0200 (EET)\n"
+"PO-Revision-Date: Mon Dec 21 2015 19:49:49 GMT+0200 (EET)\n"
+"Last-Translator: admin <makstsiplyskov@gmail.loc>\n"
+"Language-Team: \n"
+"Language: German\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: de_DE\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-SearchPath-0: ."
+
+#: ../../views/admin/import/_tabs/_general.php:25 ../..
+#: /views/admin/import/_tabs/_general.php:49
+#, php-format
+msgid "Regular Price (%s)"
+msgstr ""
+
+#: ../../views/admin/import/_tabs/_general.php:29 ../..
+#: /views/admin/import/_tabs/_general.php:61
+#, php-format
+msgid "Sale Price (%s)"
+msgstr ""
+
+#: ../../views/admin/import/_tabs/_linked_product.php:5 ../..
+#: /views/admin/import/_tabs/_linked_product.php:9
+msgid "Product SKUs, comma separated"
+msgstr ""
+
+#: ../../views/admin/import/_tabs/_shipping.php:5
+#, php-format
+msgid "Weight (%s)"
+msgstr ""
+
+#: ../../views/admin/import/_tabs/_shipping.php:9
+#, php-format
+msgid "Dimensions (%s)"
+msgstr ""
+
+#: ../../views/admin/import/_tabs/_shipping.php:10
+msgid "Length"
+msgstr ""
+
+#: ../../views/admin/import/_tabs/_shipping.php:11
+msgid "Width"
+msgstr ""
+
+#: ../../views/admin/import/_tabs/_shipping.php:12
+msgid "Height"
+msgstr ""
+
+msgid "WP All Import - WooCommerce Add-On Pro"
+msgstr "WP All Import - WooCommerce Add-On Pro"
+
+msgid "http://www.wpallimport.com"
+msgstr "http://www.wpallimport.com"
+
+msgid ""
+"Import to WooCommerce. Adds a section to WP All Import that looks just like "
+"WooCommerce. Requires WP All Import."
+msgstr ""
+"Importiere zu WooCommerce. Fügt einen Abschnitt zu WP All Import hinzu der "
+"genau wie WooCommerce aussieht. Benötigt WP All Import"
+
+msgid "Soflyy"
+msgstr "Soflyy"
+
+#: ../../wpai-woocommerce-add-on.php:35
+msgid ""
+"Please de-activate and remove the free version of the WooCommere add-on "
+"before activating the paid version."
+msgstr ""
+"Bitte deaktivieren und entfernen Sie die freie Version von WP All Import "
+"bevor Sie die bezahlte Version aktivieren."
+
+#: ../../actions/admin_notices.php:10
+#, php-format
+msgid "<b>%s Plugin</b>: WooCommerce must be installed."
+msgstr "<b>%s Plugin:</b> WooCommerce muss installiert sein."
+
+#: ../../actions/admin_notices.php:24
+#, php-format
+msgid ""
+"<b>%s Plugin</b>: WP All Import must be installed. Free edition of WP All "
+"Import at <a href=\"http://wordpress.org/plugins/wp-all-import/\" "
+"target=\"_blank\">http://wordpress.org/plugins/wp-all-import/</a> and the paid "
+"edition at <a href=\"http://www.wpallimport.com/\">http://www.wpallimport."
+"com/</a>"
+msgstr ""
+"<b>%s Plugin:</b> WP All Import muss installiert sein. Die Kostenlose "
+"Version von WP All Import finden Sie unter <a href=\"http://wordpress."
+"org/plugins/wp-all-import/\" target=\"_blank\">http://wordpress.org/plugins/wp-"
+"all-import/</a> und die bezahlte Version unter <a href=\"http://www."
+"wpallimport.com/\">http://www.wpallimport.com/</a>"
+
+#: ../../actions/admin_notices.php:38
+#, php-format
+msgid "<b>%s Plugin</b>: Please update your WP All Import to the latest version"
+msgstr ""
+"<b>%s Plugin:</b> Bitte aktualisieren Sie Ihren WP All Import auf die "
+"neueste Version"
+
+#: ../../actions/admin_notices.php:51
+#, php-format
+msgid "<b>%s Plugin</b>: Please update your WooCommerce to the latest version"
+msgstr ""
+"<b>%s Plugin:</b> Bitte aktualisieren Sie Ihr WooCommerce auf die neueste "
+"Version"
+
+#: ../../actions/pmxi_reimport.php:24 ../../views/admin/import/index.php:16
+msgid "Product Type"
+msgstr "Produkttyp"
+
+#: ../../actions/pmxi_reimport.php:30 ../../views/admin/import/index.php:73
+msgid "Attributes"
+msgstr "Merkmale"
+
+#: ../../actions/pmxi_reimport.php:31
+msgid ""
+"If Keep Custom Fields box is checked, it will keep all Custom Fields, and "
+"add any new Custom Fields specified in Custom Fields section, as long as "
+"they do not overwrite existing fields. If 'Only keep this Custom Fields' is "
+"specified, it will only keep the specified fields."
+msgstr ""
+"Wenn die Box: 'Behalte individuelle Felder' markiert ist, wird es alle "
+"individuellen Felder behalten und neue hinzufügen die im Abschnitt "
+"individuelle Felder bestimmt wurden, solange sie bestehende Felder nicht "
+"überschreiben. Wenn 'Nur dieses individuelle Feld behalten' markiert ist, "
+"wird es nur die bestimmten Felder behalten."
+
+#: ../../actions/pmxi_reimport.php:35
+msgid "Update all Attributes"
+msgstr "Aktualisiere alle Merkmale"
+
+#: ../../actions/pmxi_reimport.php:39
+msgid "Update only these Attributes, leave the rest alone"
+msgstr "Aktualisiere nur diese Merkmale, lasse den Rest in Ruhe"
+
+#: ../../actions/pmxi_reimport.php:48
+msgid "Leave these attributes alone, update all other Attributes"
+msgstr "Lasse diese Merkmale in Ruhe, aktualisiere alle anderen Merkmale"
+
+#: ../../classes/updater.php:238
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+"Eine neue Version von %1$s ist verfügbar. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\">Details ansehen von %3$s</a>."
+
+#: ../../classes/updater.php:245
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a "
+"href=\"%4$s\">update now</a>."
+msgstr ""
+"Eine neue Version von %1$s ist verfügbar. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\">Details ansehen von %3$s</a> oder <a "
+"href=\"%4$s\">jetzt aktualisieren</a>."
+
+#: ../../classes/updater.php:428
+msgid "You do not have permission to install plugin updates"
+msgstr "Sie haben keine Berechtigung um Plug-In Aktualisierungen durchzuführen."
+
+#: ../../classes/updater.php:428
+msgid "Error"
+msgstr "Fehler"
+
+#: ../../controllers/controller/admin.php:55
+msgid ""
+"Remove this item? If you have previously reduced this item's stock, or this "
+"order was submitted by a customer, will need to manually restore the item's "
+"stock."
+msgstr ""
+"Dieses Produkt entfernen? Wenn Sie vorher den Lagerbestand dieses Produktes "
+"verringert haben, oder ein Kunde etwas bestellt hat, wird eine manuelle "
+"Bearbeitung des Lagerbestandes nötig."
+
+#: ../../controllers/controller/admin.php:56
+msgid "Remove this attribute?"
+msgstr "Dieses Merkmal entfernen?"
+
+#: ../../controllers/controller/admin.php:57 ../..
+#: /views/admin/import/_tabs/_attributes.php:6 ../..
+#: /views/admin/import/_tabs/_linked_product.php:88 ../..
+#: /views/admin/import/_tabs/_variations.php:516
+msgid "Name"
+msgstr "Name"
+
+#: ../../controllers/controller/admin.php:58
+msgid "Remove"
+msgstr "Entfernen"
+
+#: ../../controllers/controller/admin.php:59
+msgid "Click to toggle"
+msgstr "Klicken zum Schalten"
+
+#: ../../controllers/controller/admin.php:60
+msgid "Value(s)"
+msgstr "Wert(e)"
+
+#: ../../controllers/controller/admin.php:61
+msgid "Enter some text, or some attributes by pipe (|) separating values."
+msgstr "Text eingeben, oder einige Merkmale getrennt durch eine Pipe (|)."
+
+#: ../../controllers/controller/admin.php:62
+msgid "Visible on the product page"
+msgstr "Sichtbar auf der Produktseite"
+
+#: ../../controllers/controller/admin.php:63
+msgid "Used for variations"
+msgstr "Genutzt für Variationen"
+
+#: ../../controllers/controller/admin.php:64
+msgid "Enter a name for the new attribute term:"
+msgstr "Namen für das neue Merkmal eingeben"
+
+#: ../../controllers/controller/admin.php:65
+msgid ""
+"Calculate totals based on order items, discount amount, and shipping? Note, "
+"you will need to (optionally) calculate tax rows and cart discounts manually."
+msgstr ""
+"Berechne Summen basierend auf bestellten Produkten, Rabatten und "
+"Lieferkosten? Hinweis, Sie werden (optional) die Spalte der Steuern und "
+"Einkaufswagen Rabatte manuell berechnen müssen. "
+
+#: ../../controllers/controller/admin.php:66
+msgid ""
+"Calculate line taxes? This will calculate taxes based on the customers "
+"country. If no billing/shipping is set it will use the store base country."
+msgstr ""
+"Berechne Produktbezogene Steuern? Das wird die Steuern basierend auf das "
+"Kundenland berechnen. Wenn keine Rechnung/Versendung gesetzt ist, wird das "
+"Basisland des Shops genutzt."
+
+#: ../../controllers/controller/admin.php:67
+msgid ""
+"Copy billing information to shipping information? This will remove any "
+"currently entered shipping information."
+msgstr ""
+"Kopiere Rechnungsinformationen zur Versandinformation? Das wird alle bisher "
+"eingegebenen Versandinformationen entfernen."
+
+#: ../../controllers/controller/admin.php:68
+msgid ""
+"Load the customer's billing information? This will remove any currently "
+"entered billing information."
+msgstr ""
+"Lade des Kunden Rechnungsinformation? Das wird alle bisher eingegebenen "
+"Rechnungsinformationen entfernen."
+
+#: ../../controllers/controller/admin.php:69
+msgid ""
+"Load the customer's shipping information? This will remove any currently "
+"entered shipping information."
+msgstr ""
+"Lade des Kunden Versandinformation? Das wird alle bisher eingegebenen "
+"Versandinformationen entfernen."
+
+#: ../../controllers/controller/admin.php:70 ../..
+#: /views/admin/import/_tabs/_advanced.php:44
+msgid "Featured"
+msgstr "Featured"
+
+#: ../../controllers/controller/admin.php:74
+msgid "Meta Name"
+msgstr "Meta Name"
+
+#: ../../controllers/controller/admin.php:75
+msgid "Meta Value"
+msgstr "Meta Wert"
+
+#: ../../controllers/controller/admin.php:76
+msgid "No customer selected"
+msgstr "Kein Kunde gewählt"
+
+#: ../../controllers/controller/admin.php:77
+msgid "Tax Label:"
+msgstr "Steuer Kennzeichnung"
+
+#: ../../controllers/controller/admin.php:78
+msgid "Compound:"
+msgstr "Mischung:"
+
+#: ../../controllers/controller/admin.php:79
+msgid "Cart Tax:"
+msgstr "Einkaufswagen Steuern:"
+
+#: ../../controllers/controller/admin.php:80
+msgid "Shipping Tax:"
+msgstr "Versand Steuern:"
+
+#: ../../filters/pmxi_custom_types.php:3
+msgid "WooCommerce Products"
+msgstr "WooCommerce Produkte"
+
+#: ../../models/import/record.php:63
+msgid "Composing product data..."
+msgstr "Zusammengesetzte Produkt Daten..."
+
+#: ../../models/import/record.php:471
+msgid "Composing variations attributes..."
+msgstr "Zusammengesetzte Merkmal Variationen..."
+
+#: ../../models/import/record.php:812
+msgid "<b>WARNING</b>: Product SKU must be unique."
+msgstr "<b>WARNING</b>: Produkt ID muss einzigartig sein."
+
+#: ../../models/import/record.php:1421 ../../models/import/record.php:2540 ../..
+#: /models/import/record.php:2587
+#, php-format
+msgid "Variation #%s of %s"
+msgstr "Variation #%s von %s"
+
+#: ../../models/import/record.php:2149
+#, php-format
+msgid "<b>CREATED</b>: %s variations for parent product %s."
+msgstr "<b>CREATED</b>: %s Variationen für gegenwärtiges Produkt %s."
+
+#: ../../models/import/record.php:2171
+msgid "- Importing Variations"
+msgstr "- Importiere Variationen"
+
+#: ../../models/import/record.php:2587
+#, php-format
+msgid "- `%s`: variation created successfully"
+msgstr "- `%s`: Variation erfolgreich erstellt"
+
+#: ../../models/import/record.php:2593
+#, php-format
+msgid "- `%s`: variation updated successfully"
+msgstr "- `%s`: Variation erfolgreich aktualisiert"
+
+#: ../../models/import/record.php:2750
+msgid "- <b>WARNING</b>: Product SKU must be unique."
+msgstr "<b>WARNING</b>: Produkt ID muss einzigartig sein."
+
+#: ../../models/import/record.php:2987
+#, php-format
+msgid "- <b>Image SKIPPED</b>: The image %s is always exists for the %s"
+msgstr "- <b>Image SKIPPED</b>: Das Bild %s existiert immer für %s"
+
+#: ../../models/import/record.php:3034 ../../models/import/record.php:3063
+#, php-format
+msgid ""
+"- <b>WARNING</b>: File %s is not a valid image and cannot be set as featured "
+"one"
+msgstr ""
+"- <b>WARNUNG</b>: Datei %s ist kein zulässiges Bild und kann nicht als "
+"Featured-Bild gesetzt werden"
+
+#: ../../models/import/record.php:3060
+#, php-format
+msgid "- <b>WARNING</b>: File %s cannot be saved locally as %s"
+msgstr "- <b>WARNUNG</b>: Datei %s kann lokal nicht gespeichert werden als %s"
+
+#: ../../models/import/record.php:3094
+msgid "- <b>WARNING</b>"
+msgstr "- <b>WARNUNG</b>"
+
+#: ../../models/import/record.php:3607
+msgid "<b>ERROR</b> Could not insert term relationship into the database"
+msgstr "<b>ERROR</b> Einfügen von Beziehungen in die Datenbank nicht möglich"
+
+#: ../../models/import/record.php:3709
+#, php-format
+msgid ""
+"- <b>WARNING</b>: Slug “%s” is not allowed because it is a reserved term. "
+"Change it, please."
+msgstr ""
+"- <b>WARNING</b>: Slug “%s” ist nicht zulässig da es ein reservierter "
+"Begriff ist. Bitte ändern."
+
+#: ../../models/import/record.php:3742
+#, php-format
+msgid "- <b>CREATED</b>: Taxonomy attribute “%s” have been successfully created."
+msgstr "- <b>CREATED</b>: Taxonomie Merkmal \"%s\" wurde erfolgreich erstellt."
+
+#: ../../models/import/record.php:3746
+#, php-format
+msgid ""
+"- <b>WARNING</b>: Taxonomy “%s” name is more than 32 characters. Change it, "
+"please."
+msgstr ""
+"- <b>WARNING</b>: Taxonomie \"%s\" Name ist länger als 32 Zeichen. Bitte "
+"ändern."
+
+#: ../../models/import/record.php:4059
+#, php-format
+msgid "- <b>WARNING</b>: Unable to create cloaked link for %s"
+msgstr "<b>WARNING</b>:Verhüllten Link erstellen nicht möglich %s"
+
+#: ../../views/admin/import/index.php:4
+msgid "WooCommerce Add-On"
+msgstr "WooCommerce Add-On"
+
+#: ../../views/admin/import/index.php:22
+msgid "Simple product"
+msgstr "Einfaches Produkt"
+
+#: ../../views/admin/import/index.php:23
+msgid "Grouped product"
+msgstr "Gruppiertes Produkt"
+
+#: ../../views/admin/import/index.php:24
+msgid "External/Affiliate product"
+msgstr "Externes/Affiliate Produkt"
+
+#: ../../views/admin/import/index.php:25
+msgid "Variable product"
+msgstr "Variables Produkt"
+
+#: ../../views/admin/import/index.php:39
+msgid "Set Product Type With XPath"
+msgstr "Setze Produkt Typ mit XPath"
+
+#: ../../views/admin/import/index.php:44
+msgid ""
+"The value of presented XPath should be one of the following: ('simple', "
+"'grouped', 'external', 'variable')."
+msgstr ""
+"Der Wert des gegenwärtigen XPath sollte einer der folgenden sein:('simple', "
+"'grouped', 'external', 'variable')."
+
+#: ../../views/admin/import/index.php:50 ../../views/admin/import/_tabs/_general.
+#: php:138 ../../views/admin/import/_tabs/_variations.php:108 ../..
+#: /views/admin/import/_tabs/_variations.php:277
+msgid "Virtual"
+msgstr "Virtuell"
+
+#: ../../views/admin/import/index.php:54 ../../views/admin/import/_tabs/_general.
+#: php:161 ../../views/admin/import/_tabs/_variations.php:112 ../..
+#: /views/admin/import/_tabs/_variations.php:421
+msgid "Downloadable"
+msgstr "Herunterladbar"
+
+#: ../../views/admin/import/index.php:65
+msgid "General"
+msgstr "Allgemein"
+
+#: ../../views/admin/import/index.php:67
+msgid "Inventory"
+msgstr "Inventar"
+
+#: ../../views/admin/import/index.php:69
+msgid "Shipping"
+msgstr "Versand"
+
+#: ../../views/admin/import/index.php:71
+msgid "Linked Products"
+msgstr "Verlinkte Produkte"
+
+#: ../../views/admin/import/index.php:75 ../..
+#: /views/admin/import/_tabs/_attributes.php:26 ../..
+#: /views/admin/import/_tabs/_attributes.php:158 ../..
+#: /views/admin/import/_tabs/_attributes.php:286
+msgid "Advanced"
+msgstr "Erweitert"
+
+#: ../../views/admin/import/index.php:77
+msgid "Variations"
+msgstr "Variationen"
+
+#: ../../views/admin/import/index.php:79
+msgid "Add-On Options"
+msgstr "Add-On Optionen"
+
+#: ../../views/admin/import/_tabs/_advanced.php:5
+msgid "Purchase Note"
+msgstr "Hinweis für die Bezahlung"
+
+#: ../../views/admin/import/_tabs/_advanced.php:11
+msgid "Menu order"
+msgstr "Menü Reihenfolge"
+
+#: ../../views/admin/import/_tabs/_advanced.php:18
+msgid "Enable reviews"
+msgstr "Aktiviere Rezensionen"
+
+#: ../../views/admin/import/_tabs/_advanced.php:22 ../..
+#: /views/admin/import/_tabs/_advanced.php:48 ../..
+#: /views/admin/import/_tabs/_general.php:115 ../..
+#: /views/admin/import/_tabs/_inventory.php:8 ../..
+#: /views/admin/import/_tabs/_inventory.php:99 ../..
+#: /views/admin/import/_tabs/_variations.php:154 ../..
+#: /views/admin/import/_tabs/_variations.php:486 ../..
+#: /views/admin/import/_tabs/_variations.php:653 ../..
+#: /views/admin/import/_tabs/_variations.php:715
+msgid "Yes"
+msgstr "Ja"
+
+#: ../../views/admin/import/_tabs/_advanced.php:26 ../..
+#: /views/admin/import/_tabs/_advanced.php:52 ../..
+#: /views/admin/import/_tabs/_general.php:119 ../..
+#: /views/admin/import/_tabs/_inventory.php:12 ../..
+#: /views/admin/import/_tabs/_inventory.php:103 ../..
+#: /views/admin/import/_tabs/_variations.php:158 ../..
+#: /views/admin/import/_tabs/_variations.php:490 ../..
+#: /views/admin/import/_tabs/_variations.php:657 ../..
+#: /views/admin/import/_tabs/_variations.php:719
+msgid "No"
+msgstr "Nein"
+
+#: ../../views/admin/import/_tabs/_advanced.php:30 ../..
+#: /views/admin/import/_tabs/_advanced.php:56 ../..
+#: /views/admin/import/_tabs/_advanced.php:90 ../..
+#: /views/admin/import/_tabs/_attributes.php:64 ../..
+#: /views/admin/import/_tabs/_attributes.php:86 ../..
+#: /views/admin/import/_tabs/_attributes.php:108 ../..
+#: /views/admin/import/_tabs/_attributes.php:130 ../..
+#: /views/admin/import/_tabs/_attributes.php:193 ../..
+#: /views/admin/import/_tabs/_attributes.php:215 ../..
+#: /views/admin/import/_tabs/_attributes.php:237 ../..
+#: /views/admin/import/_tabs/_attributes.php:259 ../..
+#: /views/admin/import/_tabs/_attributes.php:321 ../..
+#: /views/admin/import/_tabs/_attributes.php:343 ../..
+#: /views/admin/import/_tabs/_attributes.php:365 ../..
+#: /views/admin/import/_tabs/_attributes.php:387 ../..
+#: /views/admin/import/_tabs/_general.php:123 ../..
+#: /views/admin/import/_tabs/_general.php:146 ../..
+#: /views/admin/import/_tabs/_general.php:169 ../..
+#: /views/admin/import/_tabs/_inventory.php:16 ../..
+#: /views/admin/import/_tabs/_inventory.php:52 ../..
+#: /views/admin/import/_tabs/_inventory.php:82 ../..
+#: /views/admin/import/_tabs/_inventory.php:107 ../..
+#: /views/admin/import/_tabs/_variations.php:162 ../..
+#: /views/admin/import/_tabs/_variations.php:210 ../..
+#: /views/admin/import/_tabs/_variations.php:285 ../..
+#: /views/admin/import/_tabs/_variations.php:429 ../..
+#: /views/admin/import/_tabs/_variations.php:494 ../..
+#: /views/admin/import/_tabs/_variations.php:661 ../..
+#: /views/admin/import/_tabs/_variations.php:698 ../..
+#: /views/admin/import/_tabs/_variations.php:723
+msgid "Set with XPath"
+msgstr "Gesetzt mit XPath"
+
+#: ../../views/admin/import/_tabs/_advanced.php:35 ../..
+#: /views/admin/import/_tabs/_advanced.php:61 ../..
+#: /views/admin/import/_tabs/_attributes.php:69 ../..
+#: /views/admin/import/_tabs/_attributes.php:91 ../..
+#: /views/admin/import/_tabs/_attributes.php:113 ../..
+#: /views/admin/import/_tabs/_attributes.php:135 ../..
+#: /views/admin/import/_tabs/_attributes.php:198 ../..
+#: /views/admin/import/_tabs/_attributes.php:220 ../..
+#: /views/admin/import/_tabs/_attributes.php:242 ../..
+#: /views/admin/import/_tabs/_attributes.php:264 ../..
+#: /views/admin/import/_tabs/_attributes.php:326 ../..
+#: /views/admin/import/_tabs/_attributes.php:348 ../..
+#: /views/admin/import/_tabs/_attributes.php:370 ../..
+#: /views/admin/import/_tabs/_attributes.php:392 ../..
+#: /views/admin/import/_tabs/_general.php:128 ../..
+#: /views/admin/import/_tabs/_general.php:151 ../..
+#: /views/admin/import/_tabs/_general.php:174 ../..
+#: /views/admin/import/_tabs/_inventory.php:21 ../..
+#: /views/admin/import/_tabs/_inventory.php:112 ../..
+#: /views/admin/import/_tabs/_variations.php:167 ../..
+#: /views/admin/import/_tabs/_variations.php:290 ../..
+#: /views/admin/import/_tabs/_variations.php:434 ../..
+#: /views/admin/import/_tabs/_variations.php:499 ../..
+#: /views/admin/import/_tabs/_variations.php:666 ../..
+#: /views/admin/import/_tabs/_variations.php:728
+msgid "The value of presented XPath should be one of the following: ('yes', 'no')."
+msgstr ""
+"Der Wert des gegenwärtigen XPath sollte einer der folgenden sein: ('yes', "
+"'no')."
+
+#: ../../views/admin/import/_tabs/_advanced.php:70
+msgid "Catalog visibility"
+msgstr "Katalog sichtbarkeit"
+
+#: ../../views/admin/import/_tabs/_advanced.php:74
+msgid "Catalog/search"
+msgstr "Katalog/Suche"
+
+#: ../../views/admin/import/_tabs/_advanced.php:78
+msgid "Catalog"
+msgstr "Katalog"
+
+#: ../../views/admin/import/_tabs/_advanced.php:82
+msgid "Search"
+msgstr "Suche"
+
+#: ../../views/admin/import/_tabs/_advanced.php:86
+msgid "Hidden"
+msgstr "Versteckt"
+
+#: ../../views/admin/import/_tabs/_advanced.php:95
+msgid ""
+"The value of presented XPath should be one of the following: ('visible', "
+"'catalog', 'search', 'hidden')."
+msgstr ""
+"Der Wert des gegenwärtigen XPath sollte einer der folgenden sein: ('visible',"
+" 'catalog', 'search', 'hidden')."
+
+#: ../../views/admin/import/_tabs/_attributes.php:8 ../..
+#: /views/admin/import/_tabs/_variations.php:517
+msgid "Values"
+msgstr "Werte"
+
+#: ../../views/admin/import/_tabs/_attributes.php:9
+msgid "Separate mutiple values with a |"
+msgstr "Teile mehrere Werte mit |"
+
+#: ../../views/admin/import/_tabs/_attributes.php:32 ../..
+#: /views/admin/import/_tabs/_attributes.php:56 ../..
+#: /views/admin/import/_tabs/_attributes.php:164 ../..
+#: /views/admin/import/_tabs/_attributes.php:185 ../..
+#: /views/admin/import/_tabs/_attributes.php:292 ../..
+#: /views/admin/import/_tabs/_attributes.php:313 ../..
+#: /views/admin/import/_tabs/_variations.php:535 ../..
+#: /views/admin/import/_tabs/_variations.php:569 ../..
+#: /views/admin/import/_tabs/_variations.php:599
+msgid "In Variations"
+msgstr "In Variationen"
+
+#: ../../views/admin/import/_tabs/_attributes.php:37 ../..
+#: /views/admin/import/_tabs/_attributes.php:78 ../..
+#: /views/admin/import/_tabs/_attributes.php:168 ../..
+#: /views/admin/import/_tabs/_attributes.php:207 ../..
+#: /views/admin/import/_tabs/_attributes.php:296 ../..
+#: /views/admin/import/_tabs/_attributes.php:335 ../..
+#: /views/admin/import/_tabs/_variations.php:540 ../..
+#: /views/admin/import/_tabs/_variations.php:573 ../..
+#: /views/admin/import/_tabs/_variations.php:603
+msgid "Is Visible"
+msgstr "Ist Sichtbar"
+
+#: ../../views/admin/import/_tabs/_attributes.php:42 ../..
+#: /views/admin/import/_tabs/_attributes.php:100 ../..
+#: /views/admin/import/_tabs/_attributes.php:172 ../..
+#: /views/admin/import/_tabs/_attributes.php:229 ../..
+#: /views/admin/import/_tabs/_attributes.php:300 ../..
+#: /views/admin/import/_tabs/_attributes.php:357
+msgid "Is Taxonomy"
+msgstr "Ist Taxonomie"
+
+#: ../../views/admin/import/_tabs/_attributes.php:47 ../..
+#: /views/admin/import/_tabs/_attributes.php:122 ../..
+#: /views/admin/import/_tabs/_attributes.php:176 ../..
+#: /views/admin/import/_tabs/_attributes.php:251 ../..
+#: /views/admin/import/_tabs/_attributes.php:304 ../..
+#: /views/admin/import/_tabs/_attributes.php:379 ../..
+#: /views/admin/import/_tabs/_variations.php:550 ../..
+#: /views/admin/import/_tabs/_variations.php:581 ../..
+#: /views/admin/import/_tabs/_variations.php:611
+msgid "Auto-Create Terms"
+msgstr "Werte automatisch erstellen"
+
+#: ../../views/admin/import/_tabs/_attributes.php:60 ../..
+#: /views/admin/import/_tabs/_attributes.php:189 ../..
+#: /views/admin/import/_tabs/_attributes.php:317
+msgid "Not In Variations"
+msgstr "Nicht in Variationen"
+
+#: ../../views/admin/import/_tabs/_attributes.php:82 ../..
+#: /views/admin/import/_tabs/_attributes.php:211 ../..
+#: /views/admin/import/_tabs/_attributes.php:339
+msgid "Not Visible"
+msgstr "Nicht Sichtbar"
+
+#: ../../views/admin/import/_tabs/_attributes.php:104 ../..
+#: /views/admin/import/_tabs/_attributes.php:233 ../..
+#: /views/admin/import/_tabs/_attributes.php:361
+msgid "Not Taxonomy"
+msgstr "Keine Taxonomie"
+
+#: ../../views/admin/import/_tabs/_attributes.php:126 ../..
+#: /views/admin/import/_tabs/_attributes.php:255 ../..
+#: /views/admin/import/_tabs/_attributes.php:383
+msgid "Do Not Create Terms"
+msgstr "Werte nicht erstellen"
+
+#: ../../views/admin/import/_tabs/_attributes.php:405 ../..
+#: /views/admin/import/_tabs/_variations.php:618
+msgid "add"
+msgstr "Hinzufügen"
+
+#: ../../views/admin/import/_tabs/_attributes.php:405 ../..
+#: /views/admin/import/_tabs/_variations.php:618
+msgid "Add more"
+msgstr "Mehr Hinzufügen"
+
+#: ../../views/admin/import/_tabs/_attributes.php:414
+msgid "Link all variations"
+msgstr "Verbinde alle Variationen"
+
+#: ../../views/admin/import/_tabs/_attributes.php:415
+msgid ""
+"This option will create all possible variations for the presented attributes."
+" Works just like the Link All Variations option inside WooCommerce."
+msgstr ""
+"Diese Option wird alle möglichen Variationen für die gegenwärtigen Merkmale "
+"erstellen. Funktioniert genau so wie die \"Verbinde alle Variationen\" Option "
+"in WooCommerce."
+
+#: ../../views/admin/import/_tabs/_general.php:4 ../..
+#: /views/admin/import/_tabs/_variations.php:119
+msgid "SKU"
+msgstr "ID"
+
+#: ../../views/admin/import/_tabs/_general.php:10
+msgid "Product URL"
+msgstr "Produkt URL"
+
+#: ../../views/admin/import/_tabs/_general.php:12
+msgid "The external/affiliate link URL to the product."
+msgstr "Der Externe/Affiliate Link zum Produkt"
+
+#: ../../views/admin/import/_tabs/_general.php:15
+msgid "Button text"
+msgstr "Button Text"
+
+#: ../../views/admin/import/_tabs/_general.php:17
+msgid "This text will be shown on the button linking to the external product."
+msgstr ""
+"Dieser Text wird auf dem Button gezeigt, der auf das externe Produkt "
+"verlinkt."
+
+#: ../../views/admin/import/_tabs/_general.php:22
+msgid ""
+"Prices should be presented as you would enter them manually in WooCommerce - "
+"with no currency symbol."
+msgstr ""
+"Preise sollten so vorgelegt werden als würden Sie sie manuell in WooCommerce "
+"eingeben- ohne Währungs Symbol."
+
+#: ../../views/admin/import/_tabs/_general.php:26
+msgid "required"
+msgstr "Benötigt"
+
+#: ../../views/admin/import/_tabs/_general.php:30 ../..
+#: /views/admin/import/_tabs/_variations.php:233
+msgid "schedule"
+msgstr "Planung"
+
+#: ../../views/admin/import/_tabs/_general.php:35
+msgid "Sale Price Dates"
+msgstr "Angebotspreis Datum"
+
+#: ../../views/admin/import/_tabs/_general.php:37 ../..
+#: /views/admin/import/_tabs/_variations.php:266
+msgid "and"
+msgstr "und"
+
+#: ../../views/admin/import/_tabs/_general.php:39 ../..
+#: /views/admin/import/_tabs/_variations.php:268
+msgid "cancel"
+msgstr "Abbrechen"
+
+#: ../../views/admin/import/_tabs/_general.php:45
+msgid "Adjust Prices (mark up, mark down, convert currency)"
+msgstr "Preise anpassen ( erhöhen, verringern, Währung wechseln)"
+
+#: ../../views/admin/import/_tabs/_general.php:55 ../..
+#: /views/admin/import/_tabs/_general.php:67
+msgid ""
+"Leave blank or enter in 100% to keep the price as is. Enter in 110% to "
+"markup by 10%. Enter in 50% to cut prices in half."
+msgstr ""
+"Leer lassen oder 100% eingeben um den Preis zu lassen. Geben Sie 110% ein "
+"für 10% Preissteigerung. Geben Sie 50% ein für eine Preishalbierung."
+
+#: ../../views/admin/import/_tabs/_general.php:56 ../..
+#: /views/admin/import/_tabs/_general.php:68
+msgid "Enter a negative number to reduce prices."
+msgstr "Geben Sie eine negative Zahl ein zur Preisreduktion."
+
+#: ../../views/admin/import/_tabs/_general.php:78
+msgid "Remove currency symbols from price"
+msgstr "Entfernen Sie die Währungssymbole vom Preis"
+
+#: ../../views/admin/import/_tabs/_general.php:79
+msgid "WP All Import attempt to remove currency symbols from prices."
+msgstr "WP All Import versucht die Währungssymbole vom Preis zu entfernen."
+
+#: ../../views/admin/import/_tabs/_general.php:85
+msgid "Convert decimal separator to a period"
+msgstr "Konvertiere Dezimaltrennzeichen zu einem Punkt"
+
+#: ../../views/admin/import/_tabs/_general.php:86
+msgid ""
+"Prices must be imported using a period as the decimal separator. If you'd "
+"like to change the decimal separator you can do so by editing your "
+"WooCommerce settings."
+msgstr ""
+"Preise müssen mit einem Punkt als Dezimaltrennzeichen importiert werden. "
+"Wenn Sie Ihr Dezimaltrennzeichen ändern möchten, können Sie das in den "
+"WooCommerce Einstellungen machen."
+
+#: ../../views/admin/import/_tabs/_general.php:92
+msgid "Attempt to convert incorrectly formatted prices to WooCommerce format"
+msgstr ""
+"Versuche nicht korrekt formatierte Preise in das WooCommerce Format zu "
+"Konvertieren."
+
+#: ../../views/admin/import/_tabs/_general.php:93
+msgid ""
+"WP All Import will attempt to correct the formatting of prices presented "
+"incorrectly, but this doesn't always work. Try unchecking this option if "
+"your prices are not appearing correctly, or enter your prices in your import "
+"file using the same format you would when entering them in WooCommerce."
+msgstr ""
+"WP All Import wird versuchen alle unkorrekt formatierten Preise zu "
+"konvertieren, aber das funktioniert nicht immer. Heben Sie diese Auswahl auf,"
+" wenn Ihre Preise nicht korrekt erscheinen, oder ändern Sie die Preise in "
+"dem Importfile indem Sie das selbe Format benutzen das Sie auch in "
+"WooCommerce eingeben."
+
+#: ../../views/admin/import/_tabs/_general.php:97
+msgid "Preview Prices"
+msgstr "Vorschau Preise"
+
+#: ../../views/admin/import/_tabs/_general.php:104 ../..
+#: /views/admin/import/_tabs/_variations.php:138
+msgid "Variation Description"
+msgstr "Verändere Beschreibung"
+
+#: ../../views/admin/import/_tabs/_general.php:111 ../..
+#: /views/admin/import/_tabs/_variations.php:480 ../..
+#: /views/admin/import/_tabs/_variations.php:711
+msgid "Variation Enabled"
+msgstr "Variationen aktiviert"
+
+#: ../../views/admin/import/_tabs/_general.php:111 ../..
+#: /views/admin/import/_tabs/_variations.php:711
+msgid ""
+"This option is the same as the Enabled checkbox when editing an individual "
+"variation in WooCommerce."
+msgstr ""
+"Die Option ist die gleiche wie die aktivierte Checkbox, wenn eine "
+"individuelle Variation in WooCommerce editiert wird."
+
+#: ../../views/admin/import/_tabs/_general.php:142 ../..
+#: /views/admin/import/_tabs/_variations.php:281
+msgid "Not Virtual"
+msgstr "Nicht Virtuell"
+
+#: ../../views/admin/import/_tabs/_general.php:165 ../..
+#: /views/admin/import/_tabs/_variations.php:425
+msgid "Not Downloadable"
+msgstr "Nicht Herunterladbar"
+
+#: ../../views/admin/import/_tabs/_general.php:182 ../..
+#: /views/admin/import/_tabs/_variations.php:447
+msgid "File paths"
+msgstr "Datei Pfad"
+
+#: ../../views/admin/import/_tabs/_general.php:185
+msgid ""
+"File paths/URLs, comma separated. The delimiter is used when an XML element "
+"contains multiple URLs/paths - i.e. <code>http://files.com/1.doc, http:"
+"//files.com/2.doc</code>."
+msgstr ""
+"Datei Pfad/URLs, durch Komma getrennt. Das Trennzeichen wird genutzt wenn "
+"ein XML Element mehrere URLs/Pfade hat. Bsp.:<code>http://files.com/1.doc, "
+"http://files.com/2.doc</code>."
+
+#: ../../views/admin/import/_tabs/_general.php:188 ../..
+#: /views/admin/import/_tabs/_variations.php:453
+msgid "File names"
+msgstr "Datei Namen"
+
+#: ../../views/admin/import/_tabs/_general.php:191 ../..
+#: /views/admin/import/_tabs/_variations.php:456
+msgid ""
+"File names, comma separated. The delimiter is used when an XML element "
+"contains multiple names - i.e. <code>1.doc, 2.doc</code>."
+msgstr ""
+"Datei Namen, durch Komma getrennt. Das Trennzeichen wird genutzt wenn ein "
+"XML Element mehrere Dateinamen hat. Bsp.: <code>1.doc, 2.doc</code>."
+
+#: ../../views/admin/import/_tabs/_general.php:194 ../..
+#: /views/admin/import/_tabs/_variations.php:459
+msgid "Download Limit"
+msgstr "Herunterlade Beschränkung"
+
+#: ../../views/admin/import/_tabs/_general.php:196
+msgid "Leave blank for unlimited re-downloads."
+msgstr "Leer lassen für unbeschränkte erneute Downloads."
+
+#: ../../views/admin/import/_tabs/_general.php:199 ../..
+#: /views/admin/import/_tabs/_variations.php:468
+msgid "Download Expiry"
+msgstr "Download Verfalldatum"
+
+#: ../../views/admin/import/_tabs/_general.php:201
+msgid "Enter the number of days before a download link expires, or leave blank."
+msgstr ""
+"Geben Sie die Zahl der Tage ein, bevor ein Download Link verfällt, oder leer "
+"lassen."
+
+#: ../../views/admin/import/_tabs/_general.php:204
+msgid "Download Type"
+msgstr "Download Typ"
+
+#: ../../views/admin/import/_tabs/_general.php:206
+msgid ""
+"The value of presented XPath should be one of the following: ('application', "
+"'music')."
+msgstr ""
+"Der Wert des gegenwärtigen XPath sollte einer der folgenden sein: "
+"('application', 'music')."
+
+#: ../../views/admin/import/_tabs/_general.php:214
+msgid "Tax Status"
+msgstr "Steuer Status"
+
+#: ../../views/admin/import/_tabs/_general.php:219
+msgid "Taxable"
+msgstr "Besteuerbar"
+
+#: ../../views/admin/import/_tabs/_general.php:220
+msgid "Shipping only"
+msgstr "Nur Versand"
+
+#: ../../views/admin/import/_tabs/_general.php:221
+msgid "None"
+msgstr "Keine"
+
+#: ../../views/admin/import/_tabs/_general.php:229
+msgid "Set tax status with XPath"
+msgstr "Setzte Steuer Status mit XPath"
+
+#: ../../views/admin/import/_tabs/_general.php:234
+msgid ""
+"Value should be the slug for the tax status - 'taxable', 'shipping', and "
+"'none' are the default slugs."
+msgstr ""
+"Wert sollte der Slug für den Steuer Status sein - 'Besteuerbar', 'Versenden',"
+" und 'keine' sind Standard Slugs."
+
+#: ../../views/admin/import/_tabs/_general.php:244 ../..
+#: /views/admin/import/_tabs/_variations.php:376
+msgid "Tax Class"
+msgstr "Steuer Klasse"
+
+#: ../../views/admin/import/_tabs/_general.php:252 ../..
+#: /views/admin/import/_tabs/_variations.php:383
+msgid "Standard"
+msgstr "Standard"
+
+#: ../../views/admin/import/_tabs/_general.php:268
+msgid "Set tax class with XPath"
+msgstr "Setzte Steuer Klasse mit XPath"
+
+#: ../../views/admin/import/_tabs/_general.php:274
+msgid ""
+"Value should be the slug for the tax class - 'reduced-rate' and 'zero-rate', "
+"are the default slugs."
+msgstr ""
+"Wert sollte der Slug für die Steuerklasse - 'verringerter Satz' und ' Null "
+"Satz', sind die Standard Slugs."
+
+#: ../../views/admin/import/_tabs/_inventory.php:4 ../..
+#: /views/admin/import/_tabs/_variations.php:150 ../..
+#: /views/admin/import/_tabs/_variations.php:649
+msgid "Manage stock?"
+msgstr "Lagerbestand verwalten?"
+
+#: ../../views/admin/import/_tabs/_inventory.php:29 ../..
+#: /views/admin/import/_tabs/_variations.php:180 ../..
+#: /views/admin/import/_tabs/_variations.php:674
+msgid "Stock Qty"
+msgstr "Lagerbestand Menge"
+
+#: ../../views/admin/import/_tabs/_inventory.php:35 ../..
+#: /views/admin/import/_tabs/_variations.php:193 ../..
+#: /views/admin/import/_tabs/_variations.php:681
+msgid "Stock status"
+msgstr "Lagerbestand Status"
+
+#: ../../views/admin/import/_tabs/_inventory.php:39 ../..
+#: /views/admin/import/_tabs/_variations.php:197 ../..
+#: /views/admin/import/_tabs/_variations.php:685
+msgid "In stock"
+msgstr "Auf Lager"
+
+#: ../../views/admin/import/_tabs/_inventory.php:43 ../..
+#: /views/admin/import/_tabs/_variations.php:201 ../..
+#: /views/admin/import/_tabs/_variations.php:689
+msgid "Out of stock"
+msgstr "Nicht auf Lager"
+
+#: ../../views/admin/import/_tabs/_inventory.php:47 ../..
+#: /views/admin/import/_tabs/_variations.php:205 ../..
+#: /views/admin/import/_tabs/_variations.php:693
+msgid "Set automatically"
+msgstr "Setze automatisch"
+
+#: ../../views/admin/import/_tabs/_inventory.php:48 ../..
+#: /views/admin/import/_tabs/_variations.php:694
+msgid ""
+"Set the stock status to In Stock for positive Stock Qty values, and Out Of "
+"Stock if Stock Qty is 0 or blank."
+msgstr ""
+"Setze den Lagerbestand Status auf 'Auf Lager' bei positiver Lagerbestand "
+"Menge, und 'Nicht auf Lager' wenn Lagerbestand ist 0 oder Leer."
+
+#: ../../views/admin/import/_tabs/_inventory.php:57 ../..
+#: /views/admin/import/_tabs/_variations.php:215 ../..
+#: /views/admin/import/_tabs/_variations.php:703
+msgid ""
+"The value of presented XPath should be one of the following: ('instock', "
+"'outofstock')."
+msgstr ""
+"Der Wert des gegenwärtigen XPath sollte einer der folgenden sein: ('instock',"
+" 'outofstock')."
+
+#: ../../views/admin/import/_tabs/_inventory.php:66
+msgid "Allow Backorders?"
+msgstr "Lieferrückstand erlauben?"
+
+#: ../../views/admin/import/_tabs/_inventory.php:70
+msgid "Do not allow"
+msgstr "Nicht erlauben"
+
+#: ../../views/admin/import/_tabs/_inventory.php:74
+msgid "Allow, but notify customer"
+msgstr "Erlauben, aber Kunden informieren"
+
+#: ../../views/admin/import/_tabs/_inventory.php:78
+msgid "Allow"
+msgstr "Erlauben"
+
+#: ../../views/admin/import/_tabs/_inventory.php:87
+msgid ""
+"The value of presented XPath should be one of the following: ('no', 'notify',"
+" 'yes')."
+msgstr ""
+"Der Wert des gegenwärtigen XPath sollte einer der folgenden sein: ('no', "
+"'notify', 'yes')."
+
+#: ../../views/admin/import/_tabs/_inventory.php:95
+msgid "Sold Individually?"
+msgstr "Einzeln Verkaufen?"
+
+#: ../../views/admin/import/_tabs/_linked_product.php:4
+msgid "Up-Sells"
+msgstr "Up-Sells"
+
+#: ../../views/admin/import/_tabs/_linked_product.php:8
+msgid "Cross-Sells"
+msgstr "Cross-Sells"
+
+#: ../../views/admin/import/_tabs/_linked_product.php:15
+msgid "Choose a grouped product&hellip;"
+msgstr "Wähle ein gruppiertes Produkt&hellip;"
+
+#: ../../views/admin/import/_tabs/_linked_product.php:45
+msgid "Grouping"
+msgstr "Gruppieren "
+
+#: ../../views/admin/import/_tabs/_linked_product.php:58
+msgid "Set this option to make this product part of a grouped product."
+msgstr ""
+"Setze diese Option um dieses Produkt Teil eines gruppierten Produktes zu "
+"machen."
+
+#: ../../views/admin/import/_tabs/_linked_product.php:65
+msgid "Manual Grouped Product Matching"
+msgstr "Manuell gruppierte Produkte zusammenführen"
+
+#: ../../views/admin/import/_tabs/_linked_product.php:66
+msgid ""
+"Product will be assigned as the child of an already created product matching "
+"the specified criteria."
+msgstr ""
+"Produkt wird als Kind eines bereits erstellten Produktes eingefügt, anhand "
+"der eingestellten Kriterien."
+
+#: ../../views/admin/import/_tabs/_linked_product.php:73
+msgid "Match by Post Title"
+msgstr "Zuordnung durch Post Titel"
+
+#: ../../views/admin/import/_tabs/_linked_product.php:84
+msgid "Match by Custom Field"
+msgstr "Zuordnung durch Individuelles Feld"
+
+#: ../../views/admin/import/_tabs/_linked_product.php:93
+msgid "Value"
+msgstr "Wert"
+
+#: ../../views/admin/import/_tabs/_options.php:4
+msgid "Import options"
+msgstr "Import Optionen"
+
+#: ../../views/admin/import/_tabs/_options.php:10
+msgid "Set out of stock status for missing records"
+msgstr "Setze nicht auf Lager Status bei fehlenden Datensätzen"
+
+#: ../../views/admin/import/_tabs/_options.php:11
+msgid ""
+"Option to set the stock status to out of stock instead of deleting the "
+"product entirely. This option doesn't work when 'Delete missing records' "
+"option is enabled."
+msgstr ""
+"Option um den Lagerbestand Status auf nicht auf Lager zu setzen, anstatt das "
+"Produkt ganz zu löschen. Diese Option funktioniert nicht, wenn 'Lösche "
+"fehlende Datensätze' ausgewählt wurde."
+
+#: ../../views/admin/import/_tabs/_options.php:17
+msgid "Disable auto SKU generation"
+msgstr "Deaktiviere automatische ID Generierung"
+
+#: ../../views/admin/import/_tabs/_options.php:18
+msgid ""
+"Plugin will NOT automaticaly generate the SKU for each product based on md5 "
+"algorithm, if SKU option is empty."
+msgstr ""
+"Plug-In wird KEINE ID automatisch generieren für jedes Produkt das auf dem "
+"md5 Algorithmus basiert, wenn die ID Option leer ist."
+
+#: ../../views/admin/import/_tabs/_options.php:23
+msgid "Don't check for duplicate SKUs"
+msgstr "Kontrolliere nicht für doppelte IDs"
+
+#: ../../views/admin/import/_tabs/_options.php:24
+msgid ""
+"Each product should have a unique SKU. If this box is checked, WP All Import "
+"won't check for duplicate SKUs, which speeds up the import process. Make "
+"sure the SKU for each of your products is unique. If this box is unchecked, "
+"WP All Import will import products with duplicate SKUs with a blank SKU."
+msgstr ""
+"Jedes Produkt sollte eine einzigartige ID haben. Wenn dieses Feld gesetzt "
+"ist, wird WP All Import nicht nach doppelten IDs suchen, was den Import "
+"Prozess beschleunigt. Stellen Sie sicher dass jede ID Ihrer Produkte "
+"einzigartig ist. Wenn dieses Feld nicht gesetzt ist, wird WP All Import die "
+"Produkte mit doppelter ID mit einer leeren ID importieren."
+
+#: ../../views/admin/import/_tabs/_shipping.php:20 ../..
+#: /views/admin/import/_tabs/_variations.php:330
+msgid "Shipping Class"
+msgstr "Versand Klasse"
+
+#: ../../views/admin/import/_tabs/_shipping.php:29 ../..
+#: /views/admin/import/_tabs/_variations.php:341
+msgid "No shipping class"
+msgstr "Keine Versand Klasse"
+
+#: ../../views/admin/import/_tabs/_shipping.php:44 ../..
+#: /views/admin/import/_tabs/_variations.php:356
+msgid "Set product shipping class with XPath"
+msgstr "Set Produktversand Klasse mit XPath"
+
+#: ../../views/admin/import/_tabs/_shipping.php:49
+msgid ""
+"Value should be the slug for the shipping class - 'taxable', 'shipping' and "
+"'none' are the default slugs."
+msgstr ""
+"Wert sollte der Slug für die Versandklasse sein - 'Besteuerbar', 'Versenden',"
+" und 'keine' sind Standard Slugs."
+
+#: ../../views/admin/import/_tabs/_variations.php:7
+msgid ""
+"All my variable products have SKUs or some other unique identifier. Each "
+"variation is linked to its parent with its parent's SKU or other unique "
+"identifier."
+msgstr ""
+"Alle meine variablen Produkte haben IDs oder eine andere eindeutige Kennung. "
+"Jede Variation ist mit seiner übergeordneten Artikelnummer oder mit einer "
+"anderen eindeutigen Kennung des übergeordneten verlinkt."
+
+#: ../../views/admin/import/_tabs/_variations.php:11
+msgid "SKU element for parent"
+msgstr "SKU Element für Eltern"
+
+#: ../../views/admin/import/_tabs/_variations.php:13
+msgid "SKU column in the below example."
+msgstr "SKU Spalte in dem folgenden Beispiel."
+
+#: ../../views/admin/import/_tabs/_variations.php:16
+msgid "Parent SKU element for variation"
+msgstr "Eltern ID Element zur Variation"
+
+#: ../../views/admin/import/_tabs/_variations.php:18
+msgid "Parent SKU column in the below example."
+msgstr "Eltern ID Spalte in dem folgenden Beispiel."
+
+#: ../../views/admin/import/_tabs/_variations.php:21 ../..
+#: /views/admin/import/_tabs/_variations.php:41 ../..
+#: /views/admin/import/_tabs/_variations.php:60 ../..
+#: /views/admin/import/_tabs/_variations.php:78
+msgid "Example Data For Use With This Option"
+msgstr "Beispiel Daten für die Verwendung mit dieser Option"
+
+#: ../../views/admin/import/_tabs/_variations.php:21 ../..
+#: /views/admin/import/_tabs/_variations.php:41 ../..
+#: /views/admin/import/_tabs/_variations.php:60 ../..
+#: /views/admin/import/_tabs/_variations.php:78
+msgid "download"
+msgstr "Herunterladen"
+
+#: ../../views/admin/import/_tabs/_variations.php:31
+msgid ""
+"All products with variations are grouped with a unique identifier that is "
+"the same for each variation and unique for each product."
+msgstr ""
+"Alle Produkte mit Variationen sind anhand von einzigartigen IDs gruppiert, "
+"diese ID ist die selbe für jede Variation und einzigartig für jedes Produkt."
+
+#: ../../views/admin/import/_tabs/_variations.php:36
+msgid "Unique Identifier"
+msgstr "Einzigartige ID"
+
+#: ../../views/admin/import/_tabs/_variations.php:38
+msgid "Group ID column in the below example."
+msgstr "Gruppen ID Spalte in dem folgenden Beispiel."
+
+#: ../../views/admin/import/_tabs/_variations.php:51
+msgid ""
+"All variations for a particular product have the same title as the parent "
+"product."
+msgstr ""
+"Alle Variationen für ein spezielles Produkt haben den selben Titel wie das "
+"Eltern Produkt."
+
+#: ../../views/admin/import/_tabs/_variations.php:56 ../..
+#: /views/admin/import/_tabs/_variations.php:74
+msgid "Product Title"
+msgstr "Produkt Titel"
+
+#: ../../views/admin/import/_tabs/_variations.php:70
+msgid ""
+"All variations for a particular product have the same title. There are no "
+"parent products."
+msgstr ""
+"Alle Variationen für ein spezielles Produkt haben den selben Titel. Es gibt "
+"keine Eltern Produkte."
+
+#: ../../views/admin/import/_tabs/_variations.php:88
+msgid "I'm importing XML and my variations are child XML elements"
+msgstr "Ich importiere XML und meine Variationen sind Kind XML Elemente."
+
+#: ../../views/admin/import/_tabs/_variations.php:95
+msgid "Video Example"
+msgstr "Video Beispiel:"
+
+#: ../../views/admin/import/_tabs/_variations.php:98
+msgid "Variations XPath"
+msgstr "Variationen XPath"
+
+#: ../../views/admin/import/_tabs/_variations.php:99
+msgid "Open XML Tree"
+msgstr "Offener XML Baum"
+
+#: ../../views/admin/import/_tabs/_variations.php:124
+msgid "Add value to the parent SKU"
+msgstr "Wert zu Eltern ID hinzufügen"
+
+#: ../../views/admin/import/_tabs/_variations.php:125
+msgid "Enable this checkbox to combine SKU from parent and variation products."
+msgstr ""
+"Aktiviere diese Box um IDs von Eltern und Variationen der Produkte zu "
+"kombinieren."
+
+#: ../../views/admin/import/_tabs/_variations.php:129
+msgid "Image"
+msgstr "Bild"
+
+#: ../../views/admin/import/_tabs/_variations.php:134 ../..
+#: /views/admin/import/_tabs/_variations.php:143 ../..
+#: /views/admin/import/_tabs/_variations.php:171 ../..
+#: /views/admin/import/_tabs/_variations.php:185 ../..
+#: /views/admin/import/_tabs/_variations.php:228 ../..
+#: /views/admin/import/_tabs/_variations.php:239 ../..
+#: /views/admin/import/_tabs/_variations.php:249 ../..
+#: /views/admin/import/_tabs/_variations.php:262 ../..
+#: /views/admin/import/_tabs/_variations.php:294 ../..
+#: /views/admin/import/_tabs/_variations.php:308 ../..
+#: /views/admin/import/_tabs/_variations.php:316 ../..
+#: /views/admin/import/_tabs/_variations.php:365 ../..
+#: /views/admin/import/_tabs/_variations.php:409 ../..
+#: /views/admin/import/_tabs/_variations.php:438 ../..
+#: /views/admin/import/_tabs/_variations.php:464 ../..
+#: /views/admin/import/_tabs/_variations.php:473
+msgid "XPath Is From Parent"
+msgstr "XPath ist von Eltern"
+
+#: ../../views/admin/import/_tabs/_variations.php:186
+msgid "Enable this checkbox to determine XPath from parent element."
+msgstr "Aktiviere diese Box um den XPath vom Eltern Element zu bestimmen."
+
+#: ../../views/admin/import/_tabs/_variations.php:206
+msgid ""
+"Set the stock status to In Stock for positive or blank Stock Qty values, and "
+"Out Of Stock if Stock Qty is 0."
+msgstr ""
+"Setze den Lagerbestand Status auf 'Auf Lager' bei positiver Lagerbestand "
+"Menge, und 'Nicht auf Lager' wenn Lagerbestand ist 0."
+
+#: ../../views/admin/import/_tabs/_variations.php:223
+msgid "Regular Price"
+msgstr "Regulärer Preis"
+
+#: ../../views/admin/import/_tabs/_variations.php:232
+msgid "Sale Price"
+msgstr "Angebotspreis"
+
+#: ../../views/admin/import/_tabs/_variations.php:258
+msgid "Variable Sale Price Dates"
+msgstr "Angebotspreis Datum"
+
+#: ../../views/admin/import/_tabs/_variations.php:303
+msgid "Weight"
+msgstr "Gewicht"
+
+#: ../../views/admin/import/_tabs/_variations.php:312
+msgid "Dimensions (L×W×H)"
+msgstr "Maße ( L x B x H)"
+
+#: ../../views/admin/import/_tabs/_variations.php:361
+msgid ""
+"The value of presented XPath should be one of the following: ('taxable', "
+"'shipping', 'none')."
+msgstr ""
+"Der Wert des XPath sollte einer der folgenden sein: ('taxable', 'shipping', "
+"'none')."
+
+#: ../../views/admin/import/_tabs/_variations.php:389
+msgid "Same as parent"
+msgstr "Gleich wie Eltern"
+
+#: ../../views/admin/import/_tabs/_variations.php:400
+msgid "Set product tax class with XPath"
+msgstr "Setzte Produkt Steuer Klasse mit XPath"
+
+#: ../../views/admin/import/_tabs/_variations.php:405
+msgid ""
+"The value of presented XPath should be one of the following: ('reduced-rate',"
+" 'zero-rate')."
+msgstr ""
+"Der Wert des XPath sollte einer der folgenden sein: ('reduced-rate', 'zero-"
+"rate')."
+
+#: ../../views/admin/import/_tabs/_variations.php:450
+msgid ""
+"File paths/URLs, comma separated. The delimiter option uses when xml element "
+"contains few paths/URLs (http://files.com/1.doc, http://files.com/2.doc)."
+msgstr ""
+"Datei Pfade/URLs, durch Komma getrennt. Die Trennzeichen Option wird genutzt "
+"wenn ein SML Element mehrere Pfade/URLs enthält. (http://files.com/1.doc, "
+"http://files.com/2.doc)."
+
+#: ../../views/admin/import/_tabs/_variations.php:508
+msgid "Variation Attributes"
+msgstr "Variation Merkmale"
+
+#: ../../views/admin/import/_tabs/_variations.php:545 ../..
+#: /views/admin/import/_tabs/_variations.php:577 ../..
+#: /views/admin/import/_tabs/_variations.php:607
+msgid "Taxonomy"
+msgstr "Taxonomie"
+
+#: ../../views/admin/import/_tabs/_variations.php:632
+msgid "No matching elements found for XPath expression specified"
+msgstr "Keine passenden Elemente für den XPath Ausdruck gefunden"
+
+#: ../../views/admin/import/_tabs/_variations.php:740
+msgid "Set the default selection in the attributes dropdowns."
+msgstr "Setze die Standard Auswahl in den Merkmal Auswahlfeldern."
+
+#: ../../views/admin/import/_tabs/_variations.php:741
+msgid ""
+"The attributes for the first variation will be automatically selected on the "
+"frontend."
+msgstr ""
+"Die Merkmale für die erste Variation werden automatisch auf dem Frontend "
+"gewählt."
+
+#: ../../views/admin/import/_tabs/_variations.php:746
+msgid "Set first variation as the default selection."
+msgstr "Setze die erste Variation als die Standardauswahl."
+
+#: ../../views/admin/import/_tabs/_variations.php:750
+msgid "Set first in stock variation as the default selection."
+msgstr "Setze die erste Variation auf Lager als Standardauswahl."
+
+#: ../../views/admin/import/_tabs/_variations.php:755
+msgid "Do not set default selections for the dropdowns."
+msgstr "Setzen Sie keine Standardauswahl für die Auswahlfelder."
+
+#: ../../views/admin/import/_tabs/_variations.php:761
+msgid "Create products with no variations as simple products."
+msgstr "Erstelle Produkte mit keinen Variationen als einfache Produkte."
+
+#: ../../views/admin/import/_tabs/_variations.php:766
+msgid "Save variation image to the gallery."
+msgstr "Speichere die Bilder der Variationen in der Galerie. "
+
+#: ../../views/admin/import/_tabs/_variations.php:771
+msgid ""
+"Set _stock value for parent product to the _stock value for the first "
+"variation."
+msgstr ""
+"Set _stock Wert für das Eltern Produkt auf the_stock Wert für die erste "
+"Variation."
+
+#: ../../views/admin/import/_tabs/_variations.php:772
+msgid ""
+"This option works when there are no parent products in your feed ( cases 2 "
+"and 4 on Variations tab)."
+msgstr ""
+"Diese Option funktioniert wenn keine Eltern Produkte in Ihrem feed sind "
+"(Fall 2 und 4 in Variationen tab)."

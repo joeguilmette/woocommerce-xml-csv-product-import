@@ -316,6 +316,10 @@
 	border: 1px solid #FF8383;
 	text-align:center;
 }
+.wpallimport-plugin .form-table td .woo-add-on-free-edition-notice p{
+	color: #000 !important;
+	font-size: 1.3em !important;
+}
 .wpallimport-plugin .upgrade_woo_link{
 	color: #000 !important;
 	font-size: 1.3em;

@@ -7,7 +7,7 @@ function pmwi_prepare_price( $price, $disable_prepare_price, $prepare_price_to_w
 
 	}
 
-	if ( $convert_decimal_separator )
+	if ( $convert_decimal_separator and strlen($price) > 3)
 	{
 		$decimal_sep    = get_option( 'woocommerce_price_decimal_sep', '.' );
   		$thousand_sep   = get_option( 'woocommerce_price_thousand_sep', ',' );
@@ -27,7 +27,7 @@ function pmwi_prepare_price( $price, $disable_prepare_price, $prepare_price_to_w
 			{
 				$price = str_replace(",", "", $price);				
 			}
-			else
+			elseif(strlen($price) > 4)
 			{
 				$comma_position = strrpos($price, ",", strlen($price) - 4);
 		
