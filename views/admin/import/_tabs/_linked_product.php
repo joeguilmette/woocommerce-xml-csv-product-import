@@ -6,11 +6,13 @@
 	<div class="options_group">
 		<p class="form-field">
 			<label><?php _e("Up-Sells", "wpai_woocommerce_addon_plugin"); ?></label>
-			<input type="text" class="" placeholder="<?php _e('Product SKUs, comma separated', 'wpai_woocommerce_addon_plugin');?>" name="single_product_up_sells" style="" value="<?php echo esc_attr($post['single_product_up_sells']) ?>"/>			
+			<input type="text" class="" name="single_product_up_sells" style="" value="<?php echo esc_attr($post['single_product_up_sells']) ?>"/>			
+			<a href="#help" class="wpallimport-help" title="<?php _e('Products can be matched by SKU, ID, or Title, and must be comma separated.', 'wpai_woocommerce_addon_plugin'); ?>">?</a>
 		</p>
 		<p class="form-field">
 			<label><?php _e("Cross-Sells", "wpai_woocommerce_addon_plugin"); ?></label>
-			<input type="text" class="" placeholder="<?php _e('Product SKUs, comma separated', 'wpai_woocommerce_addon_plugin');?>" name="single_product_cross_sells" value="<?php echo esc_attr($post['single_product_cross_sells']) ?>"/>			
+			<input type="text" class="" name="single_product_cross_sells" value="<?php echo esc_attr($post['single_product_cross_sells']) ?>"/>			
+			<a href="#help" class="wpallimport-help" title="<?php _e('Products can be matched by SKU, ID, or Title, and must be comma separated.', 'wpai_woocommerce_addon_plugin'); ?>">?</a>
 		</p>
 	</div> <!-- End options group -->
 	<div class="options_group grouping show_if_simple show_if_external">
