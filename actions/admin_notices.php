@@ -57,6 +57,17 @@ function pmwi_admin_notices() {
 		deactivate_plugins( PMWI_ROOT_DIR . '/plugin.php');
 	}
 
+	if ( ! empty(PMXI_Plugin::$session->options['export_id']) and ! empty($_GET['action'])) {
+		?>
+		<div class="error"><p>
+			<?php printf(
+					__('<b>%s Plugin</b>: Please note that WooCommerce Add-On free edition importing only simple products.', 'wpai_woocommerce_addon_plugin'),
+					PMWI_Plugin::getInstance()->getName()
+			) ?>
+		</p></div>
+		<?php
+	}
+
 	$input = new PMWI_Input();
 	$messages = $input->get('PMWI_nt', array());
 	if ($messages) {

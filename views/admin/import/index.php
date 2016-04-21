@@ -12,23 +12,23 @@
 								<h3 class="hndle" style="margin-top:0;">
 									<span>
 										<div class="main_choise" style="padding:0px; margin-right:0px;">
-											<input type="radio" id="multiple_product_type_yes" class="switcher" name="is_multiple_product_type" value="yes" <?php echo 'no' != $post['is_multiple_product_type'] ? 'checked="checked"': '' ?>/>
+											<input type="radio" id="multiple_product_type_yes" class="switcher" name="is_multiple_product_type" value="yes" checked="checked" />
 											<label for="multiple_product_type_yes"><?php _e('Product Type', 'wpai_woocommerce_addon_plugin' )?></label>
 										</div>
 										<div class="switcher-target-multiple_product_type_yes"  style="float:left;">
-											<div class="input">
+											<div class="input">												
 												<select name="multiple_product_type" id="product-type">
 													<optgroup label="Product Type">
-														<option value="simple" <?php echo 'simple' == $post['multiple_product_type'] ? 'selected="selected"': '' ?>><?php _e('Simple product', 'wpai_woocommerce_addon_plugin');?></option>
-														<option value="grouped" <?php echo 'grouped' == $post['multiple_product_type'] ? 'selected="selected"': '' ?>><?php _e('Grouped product','wpai_woocommerce_addon_plugin');?></option>
-														<option value="external" <?php echo 'external' == $post['multiple_product_type'] ? 'selected="selected"': '' ?>><?php _e('External/Affiliate product','wpai_woocommerce_addon_plugin');?></option>
-														<option value="variable" <?php echo 'variable' == $post['multiple_product_type'] ? 'selected="selected"': '' ?>><?php _e('Variable product','wpai_woocommerce_addon_plugin');?></option>
+														<option value="simple" selected="selected"><?php _e('Simple product', 'wpai_woocommerce_addon_plugin');?></option>
+														<option value="grouped"><?php _e('Grouped product','wpai_woocommerce_addon_plugin');?></option>
+														<option value="external"><?php _e('External/Affiliate product','wpai_woocommerce_addon_plugin');?></option>
+														<option value="variable"><?php _e('Variable product','wpai_woocommerce_addon_plugin');?></option>
 													</optgroup>
 												</select>
 											</div>
 										</div>
 										<div class="main_choise" style="padding:0px; margin-left:40px;">
-											<input type="radio" id="multiple_product_type_no" class="switcher" name="is_multiple_product_type" value="no" <?php echo 'no' == $post['is_multiple_product_type'] ? 'checked="checked"': '' ?> disabled="disabled"/>
+											<input type="radio" id="multiple_product_type_no" class="switcher" name="is_multiple_product_type" value="no" disabled="disabled"/>
 											<label for="multiple_product_type_no"><?php _e('Set Product Type With XPath', 'wpai_woocommerce_addon_plugin' )?></label>
 										</div>
 										<div class="switcher-target-multiple_product_type_no"  style="float:left;">
