@@ -57,13 +57,12 @@ function pmwi_admin_notices() {
 		deactivate_plugins( PMWI_ROOT_DIR . '/plugin.php');
 	}
 
-	if ( ! empty(PMXI_Plugin::$session->options['export_id']) and ! empty($_GET['action'])) {
+	if ( ! empty(PMXI_Plugin::$session->options['export_id']) and ! empty(PMXI_Plugin::$session->options['custom_type']) and PMXI_Plugin::$session->options['custom_type'] == 'product' and ! empty($_GET['action'])) {
 		?>
 		<div class="error"><p>
-			<?php printf(
-					__('<b>%s Plugin</b>: Please note that WooCommerce Add-On free edition importing only simple products.', 'wpai_woocommerce_addon_plugin'),
-					PMWI_Plugin::getInstance()->getName()
-			) ?>
+			<?php
+				_e('The import bundle you are using requires the Pro version of the WooCommerce Add-On. If you continue without it your data may import incorrectly.<br/><br/><a href="http://www.wpallimport.com/woocommerce-product-import/" target="_blank">Purchase the WooCommerce Import Add-On Pro</a>.', 'wp_all_import_plugin');	
+			?>						
 		</p></div>
 		<?php
 	}
