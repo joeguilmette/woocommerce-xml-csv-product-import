@@ -1399,7 +1399,7 @@ class PMWI_Import_Record extends PMWI_Model_Record {
 
 	 		// Grab the submitted data							
 			$attribute_name    = ( isset( $attr_name ) ) ? wc_sanitize_taxonomy_name( stripslashes( (string) $attr_name ) ) : '';
-			$attribute_label   = ucwords( stripslashes( (string) $attr_name ));
+			$attribute_label   = stripslashes( (string) $attr_name );
 			$attribute_type    = 'select';
 			$attribute_orderby = 'menu_order';			
 

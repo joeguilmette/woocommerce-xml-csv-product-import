@@ -32,7 +32,7 @@ Here's why you should use the WooCommerce add-on for WP All Import:
 = WooCommerce Add-On Professional Edition =
 [youtube http://www.youtube.com/watch?v=7kCmESmKGro]
 
-The professional edition of *WP All Import + the WooCommerce add-on* is a paid upgrade that includes premium support and adds the following features:
+The Pro edition of *WP All Import + the WooCommerce add-on* is a paid upgrade that includes premium support and adds the following features:
 
 * [In-depth support for Variable products](http://www.wpallimport.com/documentation/woocommerce/variable-products/?utm_source=free-plugin&utm_medium=dot-org&utm_campaign=woocommerce) - example CSV files, ability to import variations from properly formatted XML, and much more.
 
@@ -48,7 +48,7 @@ The professional edition of *WP All Import + the WooCommerce add-on* is a paid u
 
 * Get access to our customer portal with documentation and tutorials, and e-mail technical support.
 
-[Upgrade to the professional edition of WP All Import + the WooCommerce add-on now.](http://www.wpallimport.com/woocommerce-product-import?utm_source=free-plugin&utm_medium=dot-org&utm_campaign=woocommerce "WooCommerce XML & CSV Import")
+[Upgrade to the Pro edition of WP All Import + the WooCommerce add-on now.](http://www.wpallimport.com/woocommerce-product-import?utm_source=free-plugin&utm_medium=dot-org&utm_campaign=woocommerce "WooCommerce XML & CSV Import")
 
 You need the WooCommerce add-on if you need to:
 

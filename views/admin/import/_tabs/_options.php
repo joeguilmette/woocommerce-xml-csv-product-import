@@ -1,7 +1,7 @@
 <div class="panel woocommerce_options_panel" id="add_on_options" style="display:none;">
 	<div class="woo-add-on-free-edition-notice upgrade_template">
-		<a href="http://www.wpallimport.com/upgrade-to-pro/?utm_source=free-plugin&utm_medium=in-plugin&utm_campaign=woocommerce" target="_blank" class="upgrade_woo_link"><?php _e('Upgrade to the professional edition of WP All Import and the WooCommerce add-on to import to Variable, Affiliate, and Grouped products.', 'wpai_woocommerce_addon_plugin');?></a>
-		<p><?php _e('If you already own it, remove the free edition and install the professional edition.', 'wp_all_import_plugin'); ?></p>
+		<a href="http://www.wpallimport.com/upgrade-to-pro/?utm_source=free-plugin&utm_medium=in-plugin&utm_campaign=woocommerce" target="_blank" class="upgrade_woo_link"><?php _e('Upgrade to the Pro edition of WP All Import and the WooCommerce add-on to import to Variable, Affiliate, and Grouped products.', 'wpai_woocommerce_addon_plugin');?></a>
+		<p><?php _e('If you already own it, remove the free edition and install the Pro edition.', 'wp_all_import_plugin'); ?></p>
 	</div>	
 	<div class="options_group">
 		
