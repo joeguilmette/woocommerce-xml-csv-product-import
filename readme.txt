@@ -1,8 +1,8 @@
 === Import Products from any XML or CSV to WooCommerce ===
 Contributors: soflyy, wpallimport 
 Requires at least: 4.1
-Tested up to: 4.5.1
-Stable tag: 1.2.8
+Tested up to: 4.6
+Stable tag: 1.3.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: woocommerce xml import, woocommerce csv import, woocommerce, import, xml, csv, wp all import, csv import, import csv, xml import, import xml, woocommerce csv importer, woocommerce xml importer, csv importer, csv import suite
@@ -82,6 +82,13 @@ The WooCommerce add-on will appear in the Step 4 of WP All Import.
 1. The WooCommerce add-on.
 
 == Changelog ==
+
+= 1.3.0 =
+* updated post types dropdown
+
+= 1.2.9 =
+* fixed ucwords attributes names
+* fixed tooltips & css for woo 2.6 compatibility
 
 = 1.2.8 = 
 * fixed updating stock qty with disabled manage_stock import

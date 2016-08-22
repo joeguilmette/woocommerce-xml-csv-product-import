@@ -1,11 +1,6 @@
 <?php
 function pmwi_pmxi_extend_options_main($entry, $post = array()){
 
-	// upgrade notice
-	if ($entry == 'shop_order') {
-		
-	}
-
 	if ($entry != 'product' and empty($post['is_override_post_type'])) return;
 
 	$woo_controller = new PMWI_Admin_Import();										

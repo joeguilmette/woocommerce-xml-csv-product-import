@@ -4,9 +4,9 @@ function pmwi_pmxi_custom_types($custom_types)
 {
 	if (class_exists('WooCommerce'))
 	{
-		if ( ! empty($custom_types['product']) ) $custom_types['product']->labels->name = __('Products','wpai_woocommerce_addon_plugin');
-		if ( ! empty($custom_types['shop_order']) ) $custom_types['shop_order']->labels->name = __('Orders','wpai_woocommerce_addon_plugin');
-		if ( ! empty($custom_types['shop_coupon'])) $custom_types['shop_coupon']->labels->name = __('Coupons','wpai_woocommerce_addon_plugin');
+		if ( ! empty($custom_types['product']) ) $custom_types['product']->labels->name = __('WooCommerce Products','wpai_woocommerce_addon_plugin');
+		if ( ! empty($custom_types['shop_order']) ) $custom_types['shop_order']->labels->name = __('WooCommerce Orders','wpai_woocommerce_addon_plugin');
+		if ( ! empty($custom_types['shop_coupon'])) $custom_types['shop_coupon']->labels->name = __('WooCommerce Coupons','wpai_woocommerce_addon_plugin');
 		if ( ! empty($custom_types['product_variation'])) unset($custom_types['product_variation']);				
 		if ( ! empty($custom_types['shop_order_refund'])) unset($custom_types['shop_order_refund']);
 
